@@ -1,0 +1,68 @@
+/** 
+* Imports and plugins 
+*/
+@import url('https://fonts.googleapis.com/css?family=Eczar:400,700|Gentium+Basic');
+
+/** 
+* Base 
+*/
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Eczar', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Eczar", sans-serif;
+    
+}
+
+h2 {
+    font-family: "Eczar", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0;
+    margin: 56px 0 24px -1.883px;
+    text-align: left;
+    line-height: 34.5px;
+    letter-spacing: -0.45px;
+}
+
+p {
+    font-family: 'Gentium Basic', serif;
+    margin-top: 21px;
+    font-size: 21px;
+    letter-spacing: -0.03px;
+    line-height: 1.58;
+}
+
+
+.footer {
+    color: white;
+    background-color: #d0bcab;
+    padding: 24px;
+}
+
+.tablecenterCSS td{
+	text-align:center;
+  
+}
+
+.tablecenterCSS tr{
+    text-align:center;
+    border:3em;
+    border-color: blueviolet; 
+}
+
+div.myDivElement{
+	text-align:center;
+}
+div.myDivElement ul li{
+   display:inline;
+   text-align:center;
+ }
