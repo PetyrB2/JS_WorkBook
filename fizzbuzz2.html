@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function appendTextToElement() {
+        
+        }
+        for (var i=1; i < 101; i++){
+            if (i % 15 == 0) {
+              $('#fizzbuzz').html("FizzBuzz");
+            }
+            else if (i % 3 == 0) {
+              $('#fizzbuzz').html("Fizz");
+            }
+            else if (i % 5 == 0) {
+              $('#fizzbuzz').html("Buzz");
+            }
+            else console.log(i);
+        }
+        </script>
+<!-- EDITED OUT JQUERY
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+-->
+<title>FizzBuzz Challenge 2 (No JQuery)</title>
+</head>
+<body>
+<!-- Edit the script we are pulling-->
+
+    <p id="fizzbuzz"><b><u>HELLO FIZZBUZZERS</b></u><br><hr></p> 
+</body>
+
+</html>
